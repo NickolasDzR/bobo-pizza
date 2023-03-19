@@ -1,0 +1,51 @@
+{
+    "menu": [
+        {
+            "title": "Войти",
+            "href": "login",
+            "id": 3
+        },
+        {
+            "title": "О нас",
+            "href": "about",
+            "id": 7
+        },
+        {
+            "title": "Контакты",
+            "href": "contacts",
+            "id": 2
+        },
+        {
+            "title": "Секрет",
+            "href": "secret",
+            "id": 33
+        }
+    ],
+    "anchors": [
+        {
+            "title": "Пицца",
+            "href": "pizza",
+            "id": 3
+        },
+        {
+            "title": "Комбо",
+            "href": "combo",
+            "id": 7
+        },
+        {
+            "title": "Закуски",
+            "href": "snacks",
+            "id": 2
+        },
+        {
+            "title": "Десерты",
+            "href": "desserts",
+            "id": 33
+        },
+        {
+            "title": "Напитки",
+            "href": "drinks",
+            "id": 71
+        }
+    ]
+}

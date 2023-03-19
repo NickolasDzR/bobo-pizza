@@ -22,7 +22,7 @@ export const Navigation = ({state, items}) => {
         <NavigationWrp className={state ? "active" : ""}>
             <NavigationInner>
                 <NavigationList>
-                    {items.menu.map((item, index) => {
+                    {items.map((item, index) => {
                         return (
                             <NavigationItem as={motion.li}
                                             animate={state ? "open" : "closed"}

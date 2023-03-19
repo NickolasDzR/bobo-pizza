@@ -1,10 +1,23 @@
 import React from 'react';
-import {AnchorsWrp} from "./style";
+import {AnchorsItem, AnchorsLink, AnchorsList, AnchorWrp} from "./style";
+import DragScroll from 'react-dragscroll-ts'
 
-export const Anchors = () => {
+export const Anchors = ({items}) => {
     return (
-        <AnchorsWrp>
-
-        </AnchorsWrp>
+        <DragScroll>
+            <AnchorsList>
+                {
+                    items.map(item =>
+                        (
+                            <AnchorsItem key={item.id}>
+                                <AnchorsLink href={item.href}>
+                                    {item.title}
+                                </AnchorsLink>
+                            </AnchorsItem>
+                        )
+                    )
+                }
+            </AnchorsList>
+        </DragScroll>
     );
 };

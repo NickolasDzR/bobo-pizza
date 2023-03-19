@@ -31,16 +31,33 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -webkit-font-smoothing--moz-osx-font-smoothing: grayscale;
     line-height: 1.25;
-  }
-
-  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     overflow-x: hidden;
-    overflow-y: scroll;
   }
 
   .app {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul, li, ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .drag-scroll-inner {
+    min-width: max-content;
   }
 `

@@ -3,7 +3,7 @@ import {HeaderInner, HeaderMain, HeaderWrp} from "./style";
 import {Logo} from "../logo/logo";
 import {Hamburger} from "../hamburger/hamburger";
 import {Navigation} from "../navigation/navigation";
-import menu from "../../data.json"
+import data from "../../data.json"
 import {Anchors} from "../anchors/anchors";
 
 export const Header = () => {
@@ -21,10 +21,10 @@ export const Header = () => {
                 <HeaderInner>
                     <Logo/>
                     <Hamburger callback={burgerStateHandler} state={isActiveNav}/>
-                    <Navigation state={isActiveNav} items={menu}/>
+                    <Navigation state={isActiveNav} items={data.menu}/>
                 </HeaderInner>
 
-                <Anchors/>
+                <Anchors items={data.anchors}/>
 
             </HeaderWrp>
         </HeaderMain>

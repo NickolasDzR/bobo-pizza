@@ -1,9 +1,8 @@
 import './App.css';
-// import Product from "./components/product/product";
-// import {PizzaWithToys} from "./assets/images/index"
 import {GlobalStyle} from "./global/style";
 import {Header} from "./components/header/header";
 import {Container} from "./global/container";
+import {Main} from "./components/main/main";
 
 function App() {
     return (
@@ -11,6 +10,7 @@ function App() {
             <GlobalStyle/>
             <Container>
                 <Header/>
+                <Main/>
             </Container>
         </div>
     );

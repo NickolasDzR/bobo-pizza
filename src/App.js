@@ -3,6 +3,7 @@ import {GlobalStyle} from "./global/style";
 import {Header} from "./components/header/header";
 import {Container} from "./global/container";
 import {Main} from "./components/main/main";
+import {Card} from "./components/card/card";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
                 <Header/>
                 <Main/>
             </Container>
+            <Card/>
         </div>
     );
 }

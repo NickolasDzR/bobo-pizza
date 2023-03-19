@@ -16,7 +16,7 @@ const Products = ({items}) => {
             <ProductInner>
                 {
                     items.map(item => (
-                        <ProductsItem>
+                        <ProductsItem key={item.id}>
                             <ProductImage src={require(`../../assets/images/${item.img}.webp`)}/>
                             <ProductContentWrp>
                                 <ProductsTitle>{item.title}</ProductsTitle>

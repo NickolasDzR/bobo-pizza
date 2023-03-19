@@ -14,6 +14,10 @@ export const ProductInner = styled.ul`
   @media (min-width: ${breakpoints.sm}px) {
     grid-template-columns: repeat(2, 1fr);
   }
+  
+  @media (min-width: ${breakpoints.md}px) {
+    gap: 30px 15px;
+  }
 
   @media (min-width: ${breakpoints.lg}px) {
     grid-template-columns: repeat(3, 1fr);
@@ -29,10 +33,23 @@ export const ProductsItem = styled.li`
   justify-content: space-between;
   gap: 10px;
   align-items: flex-start;
+  margin-bottom: 15px;
+
+  @media (min-width: ${breakpoints.md}px) {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
 `
 
 export const ProductContentWrp = styled.div`
   text-align: left;
+
+  @media (min-width: ${breakpoints.md}px) {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+  }
 `
 
 export const ProductsTitle = styled.p`
@@ -42,6 +59,10 @@ export const ProductsTitle = styled.p`
   padding: 0;
   font-size: 18px;
   margin: 0 0 5px 0;
+
+  @media (min-width: ${breakpoints.md}px) {
+    font-size: 20px;
+  }
 `
 
 export const ProductsAbout = styled.p`
@@ -51,11 +72,27 @@ export const ProductsAbout = styled.p`
   text-align: left;
   color: rgb(129 135 144);
   margin-bottom: 10px;
+
+  @media (min-width: ${breakpoints.md}px) {
+    font-size: 14px;
+    line-height: 1.1;
+  }
 `
 
 export const ProductImage = styled.img`
   width: 110px;
   height: 100px;
+
+  @media (min-width: ${breakpoints.sm}px) {
+    width: 150px;
+    height: 150px;
+  }
+
+  @media (min-width: ${breakpoints.md}px) {
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+  }
 `
 
 export const ProductCost = styled.p`
@@ -67,4 +104,8 @@ export const ProductCost = styled.p`
   display: inline-block;
   margin-right: auto;
   padding: 6px 10px;
+  
+  @media (min-width: ${breakpoints.md}px) {
+    margin-top: auto;
+  }
 `

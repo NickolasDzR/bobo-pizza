@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {breakpoints} from "../../global/variables"
+import {media} from "../../global/variables"
 
 export const NavigationWrp = styled.nav`
   position: fixed;
@@ -12,7 +12,7 @@ export const NavigationWrp = styled.nav`
     transform: translatex(0);
   }
 
-  @media (min-width: ${breakpoints.md}px) {
+  @media (min-width: ${media.md}px) {
     position: static;
     transform: translateX(0);
     background-color: transparent;
@@ -28,7 +28,7 @@ export const NavigationInner = styled.div`
   justify-content: flex-start;
   padding-left: 15px;
   
-  @media (min-width: ${breakpoints.md}px) {
+  @media (min-width: ${media.md}px) {
     display: flex;
     justify-content: flex-end;
   }
@@ -44,14 +44,14 @@ export const NavigationList = styled.ul`
     margin-top: 15px;
   }
 
-  @media (min-width: ${breakpoints.md}px) {
+  @media (min-width: ${media.md}px) {
     position: static;
   }
 `
 
 export const NavigationItem = styled.li`
   text-align: left;
-  @media (min-width: ${breakpoints.md}px) {
+  @media (min-width: ${media.md}px) {
     background-color: rgb(243, 243, 247);
     display: none;
     padding: 8px 16px;
@@ -68,7 +68,7 @@ export const NavigationAnchor = styled.a`
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 600;
 
-  @media (min-width: ${breakpoints.md}px) {
+  @media (min-width: ${media.md}px) {
     color: rgb(92, 99, 112);
   }
 `

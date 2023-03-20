@@ -57,6 +57,11 @@ export const GlobalStyle = createGlobalStyle`
     list-style: none;
   }
   
+  button {
+    padding: 0;
+    margin: 0;
+  }
+  
   .drag-scroll-inner {
     min-width: max-content;
   }

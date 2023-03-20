@@ -1,5 +1,7 @@
 import styled from "styled-components";
-import {breakpoints} from "../../global/variables";
+import {media} from "../../global/variables";
+import { ReactComponent as Remove } from "../../assets/icons/remove-circle.svg";
+
 
 export const CardWrp = styled.div`
   position: fixed;
@@ -15,7 +17,7 @@ export const CardOverlay = styled.div`
   position: absolute;
   inset: 0;
   
-  @media (min-width: ${breakpoints.md}px) {
+  @media (min-width: ${media.md}px) {
     background-color: black;
     opacity: .7;
   }
@@ -65,13 +67,22 @@ export const CardDetail = styled.span`
   color: rgb(92, 99, 112);
   font-size: 14px;
   line-height: 20px;
+  margin-bottom: 4px;
 `
 
-export const CardTags = styled.ul`
+export const CardTags = styled.div`
   text-align: left;
+  margin-bottom: 15px;
 `
 
-export const CardTag = styled.li`
+export const CardTag = styled.button`
   text-decoration: dashed underline;
-  display: inline;
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+`
+
+export const RemoveIcon = styled(Remove)`
+  margin-left: 3px;
 `

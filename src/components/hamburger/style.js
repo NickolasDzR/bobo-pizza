@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {breakpoints} from "../../global/variables";
+import {media} from "../../global/variables";
 
 export const BurgerWrp = styled.div`
   position: absolute;
@@ -7,7 +7,7 @@ export const BurgerWrp = styled.div`
   right: 0;
   z-index: 500;
 
-  @media (min-width: ${breakpoints.md}px) {
+  @media (min-width: ${media.md}px) {
     display: none;
   }
 `

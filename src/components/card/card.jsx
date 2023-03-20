@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
     CardBlock,
     CardContent,
@@ -8,11 +8,14 @@ import {
     CardImgWrp,
     CardOverlay, CardTag, CardTags,
     CardTitle,
-    CardWrp
+    CardWrp, RemoveIcon
 } from "./style";
-import {Icon} from "../icon/icon";
+import {ToggleBtn} from "../toggle-btn/toggle-btn";
 
 export const Card = ({src}) => {
+    const [tagsState, setTagsState] = useState([])
+
+
     return (
         <CardWrp>
             <CardOverlay />
@@ -22,17 +25,22 @@ export const Card = ({src}) => {
                 </CardImgWrp>
                 <CardContent>
                     <CardContentInner>
+
                         <CardTitle>
                             Деревенская с бужениной
                         </CardTitle>
+
                         <CardDetail>
                             30см, традиционное тесто, 710г
                         </CardDetail>
+
                         <CardTags>
-                            <CardTag>Пикантная пепперони <Icon icon={"remove-circle"} /></CardTag>
-                            <CardTag>увеличенная порция</CardTag>
-                            <CardTag>моцареллы, томаты</CardTag>
+                            <CardTag>Пикантная пепперони <RemoveIcon /></CardTag>,&nbsp;
+                            <CardTag>порция <RemoveIcon /> </CardTag>,&nbsp;
+                            <CardTag>моцареллы, томаты <RemoveIcon /> </CardTag>
                         </CardTags>
+
+                        <ToggleBtn buttons={["Маленькая", "Средняя", "Большая"]} />
                     </CardContentInner>
                 </CardContent>
             </CardBlock>

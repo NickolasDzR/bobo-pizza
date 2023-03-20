@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {breakpoints} from "../../global/variables";
+import {media} from "../../global/variables";
 
 export const LogoMain = styled.div`
   display: grid;
@@ -10,7 +10,7 @@ export const LogoImage = styled.img`
   width: 24px;
   height: 26px;
   
-  @media (min-width: ${breakpoints.md}px) {
+  @media (min-width: ${media.md}px) {
     width: 43px;
     height: 44px;
   }
@@ -18,7 +18,7 @@ export const LogoImage = styled.img`
 
 export const LogoText = styled.div`
   text-align: left;
-  @media (min-width: ${breakpoints.md}px) {
+  @media (min-width: ${media.md}px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -36,7 +36,7 @@ export const LogoTitle = styled.span`
   display: inline-flex;
   align-items: center;
 
-  @media (min-width: ${breakpoints.md}px) {
+  @media (min-width: ${media.md}px) {
     width: 100%;
     font-size: 24px;
     align-items: flex-start;
@@ -51,7 +51,7 @@ export const LogoSubtitle = styled.span`
   font-size: 12px;
   align-items: center;
   margin-top: -4px;
-  @media (min-width: ${breakpoints.md}px) {
+  @media (min-width: ${media.md}px) {
     display: block;
   }
 `

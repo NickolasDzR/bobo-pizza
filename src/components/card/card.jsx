@@ -1,19 +1,30 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {
     CardAdditionalIngr, CardAddToCartBtn,
     CardBlock, CardBlockWrp,
     CardContent,
     CardContentInner,
-    CardDetail, CardFooter,
+    CardDetail, CardFooterDesk, CardFooterMob,
     CardImg,
     CardImgWrp,
     CardOverlay, CardTag, CardTags,
     CardTitle, CardToggleBtn,
     CardWrp, RemoveIcon
 } from "./style";
+import {observer} from "mobx-react-lite";
+import {useMediaQuery} from "react-responsive";
+import {media} from "../../global/variables";
+import {eventsStore} from "../../utils/store/events";
 
-export const Card = ({props}) => {
+export const Card = observer(({props}) => {
     const {title, text, img, cost, id, compos, ingredients} = props;
+    const isMobile = useMediaQuery({query: `(min-width: ${media.lg}px)`});
+    const {useWindowSize} = eventsStore;
+
+    useEffect(() => {
+        console.log(isMobile);
+    }, [useWindowSize]);
+
 
     return (
         <CardWrp>
@@ -47,13 +58,27 @@ export const Card = ({props}) => {
                             <CardAdditionalIngr ingredients={ingredients}/>
                         </CardContentInner>
                     </CardContent>
+                    {
+                        isMobile
+                            ?
+                            <CardFooterDesk>
+                                <CardAddToCartBtn text={`Добавить в корзину ${cost} ₽`}/>
+                            </CardFooterDesk>
+                            :
+                            false
+                    }
                 </CardBlockWrp>
             </CardBlock>
 
-            <CardFooter>
-                <CardAddToCartBtn text={`Добавить в корзину ${cost} ₽`}/>
-            </CardFooter>
-
+            {
+                isMobile
+                    ?
+                    false
+                    :
+                    <CardFooterMob>
+                        <CardAddToCartBtn text={`Добавить в корзину ${cost} ₽`}/>
+                    </CardFooterMob>
+            }
         </CardWrp>
     );
-};
+});

@@ -19,7 +19,7 @@ export const CardOverlay = styled.div`
   position: absolute;
   inset: 0;
 
-  @media (min-width: ${media.md}px) {
+  @media (min-width: ${media.lg}px) {
     background-color: black;
     opacity: .7;
   }
@@ -28,16 +28,38 @@ export const CardOverlay = styled.div`
 export const CardBlock = styled.div`
   position: absolute;
   inset: 0;
+  
+  @media (min-width: ${media.lg}px) {
+    width: 924px;
+    height: 610px;
+    max-height: 100%;
+    inset: auto;
+    background-color: white;
+    border-radius: 24px;
+    overflow: hidden;
+  }
 `
 
 export const CardBlockWrp = styled.div`
   height: 100%;
   overflow: auto;
   padding-bottom: 72px;
+
+  @media (min-width: ${media.lg}px) {
+    padding: inherit;
+    overflow: inherit;
+    display: grid;
+    grid-template-columns: 540px auto;
+    grid-gap: 10px;
+  }
 `
 
 export const CardImgWrp = styled.div`
   height: 0;
+
+  @media (min-width: ${media.lg}px) {
+    height: auto;
+  }
 `
 
 export const CardImg = styled.img`
@@ -47,16 +69,34 @@ export const CardImg = styled.img`
   right: 50%;
   left: 50%;
   transform: translateX(-50%);
+  max-width: 456px;
+  
+  @media (min-width: ${media.lg}px) {
+    position: static;
+    width: 100%;
+    height: auto;
+    transform:inherit;
+    max-width: 100%;
+  }
 `
 
 export const CardContent = styled.div`
   padding-top: 60vh;
+
+  @media (min-width: ${media.lg}px) {
+    padding: 30px 0px;
+    overflow: auto;
+  }
 `
 
 export const CardContentInner = styled.div`
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(20px);
   padding: 0 15px;
+  
+  @media (min-width: ${media.md}px) {
+    backdrop-filter: inherit;
+  }
 `
 
 export const CardTitle = styled.p`
@@ -113,7 +153,7 @@ export const CardAdditionalIngr = styled(AdditionalIngredients)`
   margin-bottom: 15px;
 `
 
-export const CardFooter = styled.div`
+export const CardFooterMob = styled.div`
   height: 72px;
   background-color: white;
   position: fixed;
@@ -125,6 +165,14 @@ export const CardFooter = styled.div`
   align-items: center;
   justify-content: center;
   box-shadow: rgba(6, 5, 50, 0.12) 4px 4px 40px;
+`
+
+export const CardFooterDesk = styled(CardFooterMob)`
+  position: absolute;
+  width: 359px;
+  right: 0;
+  left: auto;
+  box-shadow: none;
 `
 
 export const CardAddToCartBtn = styled(Button)`

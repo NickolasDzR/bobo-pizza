@@ -4,6 +4,7 @@ import {Header} from "./components/header/header";
 import {Container} from "./global/container";
 import {Main} from "./components/main/main";
 import {Card} from "./components/card/card";
+import data from "./data.json"
 
 function App() {
     return (
@@ -13,7 +14,7 @@ function App() {
                 <Header/>
                 <Main/>
             </Container>
-            <Card/>
+            <Card props={data.products[0]}/>
         </div>
     );
 }

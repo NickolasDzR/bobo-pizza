@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import {ToggleBtnInner, ToggleBtnInput, ToggleBtnLabel, ToggleBtnLine, ToggleBtnSpan, ToggleBtnWrp} from "./style";
 
-export const ToggleBtn = ({buttons}) => {
+export const ToggleBtn = ({buttons, className}) => {
     const [activeItem, setActiveItem] = useState(0);
     const buttonLineWidth = 100 / buttons.length;
 
     return (
-        <ToggleBtnWrp>
+        <ToggleBtnWrp className={className}>
             <ToggleBtnInner>
                 {
                     buttons.map((button, index) =>

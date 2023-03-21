@@ -14,7 +14,6 @@ class Events {
         window.addEventListener("resize", this.updateSizeDebounce);
     }
 
-    // проверяем ширину и высоту экрана
     updateSize = () => {
         this.useWindowSize = [window.innerWidth, window.innerHeight];
     };

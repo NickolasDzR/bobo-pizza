@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import {media} from "../../global/variables";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const ProductsWrp = styled.section`
 
@@ -34,6 +35,7 @@ export const ProductsItem = styled.li`
   gap: 10px;
   align-items: flex-start;
   margin-bottom: 15px;
+  cursor: pointer;
 
   @media (min-width: ${media.md}px) {
     flex-direction: column;
@@ -79,7 +81,7 @@ export const ProductsAbout = styled.p`
   }
 `
 
-export const ProductImage = styled.img`
+export const ProductImage = styled(LazyLoadImage)`
   width: 110px;
   height: 100px;
 

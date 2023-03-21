@@ -9,6 +9,7 @@ export const IngredientsList = styled.ul`
   @media (min-width: ${media.lg}px) {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    padding-bottom: 35px;
   }
 `
 

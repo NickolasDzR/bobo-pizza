@@ -8,7 +8,7 @@ export const Logo = () => {
             <LogoImage src={LogoImg}></LogoImage>
             <LogoText>
                 <LogoTitle>бобо пицца</LogoTitle>
-                <LogoSubtitle>Сеть ципперий № 1 в дуденево</LogoSubtitle>
+                <LogoSubtitle>Сеть ципперий № 1 в Дуденево</LogoSubtitle>
             </LogoText>
         </LogoMain>
     )

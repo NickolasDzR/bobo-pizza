@@ -21,7 +21,7 @@ export const CardOverlay = styled.div`
 
   @media (min-width: ${media.lg}px) {
     background-color: black;
-    opacity: .7;
+    opacity: 0;
   }
 `
 
@@ -36,7 +36,6 @@ export const CardBlock = styled.div`
     inset: auto;
     background-color: white;
     border-radius: 24px;
-    overflow: hidden;
   }
 `
 

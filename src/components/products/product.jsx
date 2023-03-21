@@ -9,14 +9,23 @@ import {
     ProductImage,
     ProductContentWrp
 } from "./style"
+import {cardStore} from "../../utils/store/card";
+import {observer} from "mobx-react-lite";
 
 const Products = ({items}) => {
+    const {setCardIndex, setIsCardState} = cardStore;
+
+    const cardHandler = (index) => {
+        setCardIndex(index);
+        setIsCardState(true);
+    }
+
     return (
         <ProductsWrp>
             <ProductInner>
                 {
-                    items.map(item => (
-                        <ProductsItem key={item.id}>
+                    items.map((item, index) => (
+                        <ProductsItem key={item.id} onClick={() => cardHandler(index)}>
                             <ProductImage src={require(`../../assets/images/${item.img}.webp`)}/>
                             <ProductContentWrp>
                                 <ProductsTitle>{item.title}</ProductsTitle>
@@ -29,6 +38,6 @@ const Products = ({items}) => {
             </ProductInner>
         </ProductsWrp>
     );
-}
+};
 
-export default Products;
+export default observer(Products);

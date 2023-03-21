@@ -56,78 +56,92 @@
             "cost": 379,
             "id": 379,
             "compos": ["Запеченная буженина из свинины", "моцарелла", "картофель из печи", "маринованные огурчики", "красный лук", "чеснок", "фирменный томатный соус", "соус ранч"],
+            "dough": ["Традиционное", "Тонкое"],
+            "size": ["Средняя", "Большая"],
             "ingredients": [
                 {
                     "img": "cheddar-and-parmesan",
                     "title": "Чеддер и пармезан",
                     "cost" : 39,
-                    "disabled": true
+                    "disabled": true,
+                    "state": true
                 },
                 {
                     "img": "cheese-edge",
                     "title": "Сырный бортик",
                     "cost" : 22,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "creamy-mozzarella",
                     "title": "Сливочная моцарелла",
                     "cost" : 88,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "crispy-bacon",
                     "title": "Хрустящий бекон",
                     "cost" : 30,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "ham",
                     "title": "Ветчина",
                     "cost" : 40,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pepperoni",
                     "title": "Пепперони",
                     "cost" : 55,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pickled-cucumbers",
                     "title": "Маринованные огурчики",
                     "cost" : 99,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-chorizo",
                     "title": "Острая чоризо",
                     "cost" : 15,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-jalapeno",
                     "title": "Острый халапеньо",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tender-chick",
                     "title": "Нежный цыпленок",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tomato",
                     "title": "свежие томаты",
                     "cost" : 45,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "сhampignon",
                     "title": "Шампиньоны",
                     "cost" : 90,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 }
             ]
         },
@@ -138,6 +152,8 @@
             "cost": 515,
             "id": 515,
             "compos": ["Запеченная буженина из свинины", "моцарелла", "соус ранч"],
+            "dough": ["Традиционное"],
+            "size": ["Маленькая", "Средняя", "Большая"],
             "ingredients": [
                 {
                     "img": "cheddar-and-parmesan",
@@ -149,67 +165,78 @@
                     "img": "cheese-edge",
                     "title":  "Сырный бортик",
                     "cost" : 22,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "creamy-mozzarella",
                     "title": "Сливочная моцарелла",
                     "cost" : 88,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "crispy-bacon",
                     "title": "Хрустящий бекон",
                     "cost" : 30,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "ham",
                     "title": "Ветчина",
                     "cost" : 40,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pepperoni",
                     "title": "Пепперони",
                     "cost" : 55,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pickled-cucumbers",
                     "title": "Маринованные огурчики",
                     "cost" : 99,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-chorizo",
                     "title": "Острая чоризо",
                     "cost" : 15,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-jalapeno",
                     "title":  "Острый халапеньо",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tender-chick",
                     "title":  "Нежный цыпленок",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tomato",
                     "title":  "свежие томаты",
                     "cost" : 45,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "сhampignon",
                     "title":  "Шампиньоны",
                     "cost" : 90,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 }
             ]
         },
@@ -220,6 +247,8 @@
             "cost": 161,
             "id": 161,
             "compos": ["Запеченная буженина из свинины", "моцарелла", "картофель из печи", "увеличенная порция", "фирменный томатный соус", "соус ранч"],
+            "dough": ["Традиционное", "Тонкое"],
+            "size": ["Маленькая", "Средняя", "Большая"],
             "ingredients": [
                 {
                     "img": "cheddar-and-parmesan",
@@ -231,67 +260,78 @@
                     "img": "cheese-edge",
                     "title":  "Сырный бортик",
                     "cost" : 22,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "creamy-mozzarella",
                     "title": "Сливочная моцарелла",
                     "cost" : 88,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "crispy-bacon",
                     "title": "Хрустящий бекон",
                     "cost" : 30,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "ham",
                     "title": "Ветчина",
                     "cost" : 40,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pepperoni",
                     "title": "Пепперони",
                     "cost" : 55,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pickled-cucumbers",
                     "title": "Маринованные огурчики",
                     "cost" : 99,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-chorizo",
                     "title": "Острая чоризо",
                     "cost" : 15,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-jalapeno",
                     "title":  "Острый халапеньо",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tender-chick",
                     "title":  "Нежный цыпленок",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tomato",
                     "title":  "свежие томаты",
                     "cost" : 45,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "сhampignon",
                     "title":  "Шампиньоны",
                     "cost" : 90,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 }
             ]
         },
@@ -302,6 +342,8 @@
             "cost": 689,
             "id": 689,
             "compos": ["Запеченная буженина из свинины", "моцарелла", "картофель из печи", "увеличенная порция", "фирменный томатный соус", "соус ранч", "соус ранч", "соус ранч"],
+            "dough": ["Традиционное", "Тонкое"],
+            "size": ["Маленькая", "Средняя", "Большая"],
             "ingredients": [
                 {
                     "img": "cheddar-and-parmesan",
@@ -313,67 +355,78 @@
                     "img": "cheese-edge",
                     "title":  "Сырный бортик",
                     "cost" : 22,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "creamy-mozzarella",
                     "title": "Сливочная моцарелла",
                     "cost" : 88,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "crispy-bacon",
                     "title": "Хрустящий бекон",
                     "cost" : 30,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "ham",
                     "title": "Ветчина",
                     "cost" : 40,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pepperoni",
                     "title": "Пепперони",
                     "cost" : 55,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pickled-cucumbers",
                     "title": "Маринованные огурчики",
                     "cost" : 99,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-chorizo",
                     "title": "Острая чоризо",
                     "cost" : 15,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-jalapeno",
                     "title":  "Острый халапеньо",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tender-chick",
                     "title":  "Нежный цыпленок",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tomato",
                     "title":  "свежие томаты",
                     "cost" : 45,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "сhampignon",
                     "title":  "Шампиньоны",
                     "cost" : 90,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 }
             ]
         },
@@ -384,6 +437,8 @@
             "cost": 438,
             "id": 438,
             "compos": ["картофель из печи", "увеличенная порция", "фирменный томатный соус", "соус ранч", "соус ранч", "соус ранч"],
+            "dough": ["Традиционное", "Тонкое"],
+            "size": ["Большая"],
             "ingredients": [
                 {
                     "img": "cheddar-and-parmesan",
@@ -395,67 +450,78 @@
                     "img": "cheese-edge",
                     "title":  "Сырный бортик",
                     "cost" : 22,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "creamy-mozzarella",
                     "title": "Сливочная моцарелла",
                     "cost" : 88,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "crispy-bacon",
                     "title": "Хрустящий бекон",
                     "cost" : 30,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "ham",
                     "title": "Ветчина",
                     "cost" : 40,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pepperoni",
                     "title": "Пепперони",
                     "cost" : 55,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pickled-cucumbers",
                     "title": "Маринованные огурчики",
                     "cost" : 99,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-chorizo",
                     "title": "Острая чоризо",
                     "cost" : 15,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-jalapeno",
                     "title":  "Острый халапеньо",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tender-chick",
                     "title":  "Нежный цыпленок",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tomato",
                     "title":  "свежие томаты",
                     "cost" : 45,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "сhampignon",
                     "title":  "Шампиньоны",
                     "cost" : 90,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 }
             ]
         },
@@ -466,6 +532,8 @@
             "cost": 658,
             "id": 658,
             "compos": ["Запеченная буженина из свинины", "моцарелла", "фирменный томатный соус", "соус ранч", "соус ранч", "соус ранч"],
+            "dough": ["Традиционное", "Тонкое"],
+            "size": ["Маленькая", "Средняя", "Большая"],
             "ingredients": [
                 {
                     "img": "cheddar-and-parmesan",
@@ -477,67 +545,78 @@
                     "img": "cheese-edge",
                     "title":  "Сырный бортик",
                     "cost" : 22,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "creamy-mozzarella",
                     "title": "Сливочная моцарелла",
                     "cost" : 88,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "crispy-bacon",
                     "title": "Хрустящий бекон",
                     "cost" : 30,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "ham",
                     "title": "Ветчина",
                     "cost" : 40,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pepperoni",
                     "title": "Пепперони",
                     "cost" : 55,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pickled-cucumbers",
                     "title": "Маринованные огурчики",
                     "cost" : 99,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-chorizo",
                     "title": "Острая чоризо",
                     "cost" : 15,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-jalapeno",
                     "title":  "Острый халапеньо",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tender-chick",
                     "title":  "Нежный цыпленок",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tomato",
                     "title":  "свежие томаты",
                     "cost" : 45,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "сhampignon",
                     "title":  "Шампиньоны",
                     "cost" : 90,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 }
             ]
         },
@@ -548,6 +627,8 @@
             "cost": 856,
             "id": 856,
             "compos": "",
+            "dough": ["Традиционное", "Тонкое"],
+            "size": ["Маленькая", "Средняя", "Большая"],
             "ingredients": [
                 {
                     "img": "cheddar-and-parmesan",
@@ -559,67 +640,78 @@
                     "img": "cheese-edge",
                     "title":  "Сырный бортик",
                     "cost" : 22,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "creamy-mozzarella",
                     "title": "Сливочная моцарелла",
                     "cost" : 88,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "crispy-bacon",
                     "title": "Хрустящий бекон",
                     "cost" : 30,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "ham",
                     "title": "Ветчина",
                     "cost" : 40,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pepperoni",
                     "title": "Пепперони",
                     "cost" : 55,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pickled-cucumbers",
                     "title": "Маринованные огурчики",
                     "cost" : 99,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-chorizo",
                     "title": "Острая чоризо",
                     "cost" : 15,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-jalapeno",
                     "title":  "Острый халапеньо",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tender-chick",
                     "title":  "Нежный цыпленок",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tomato",
                     "title":  "свежие томаты",
                     "cost" : 45,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "сhampignon",
                     "title":  "Шампиньоны",
                     "cost" : 90,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 }
             ]
         },
@@ -630,6 +722,8 @@
             "cost": 851,
             "id": 851,
             "compos": ["Бекон", "цыпленок", "ветчина", "сыры чеддер и пармезан", "соус песто", "кубики брынзы", "томаты", "красный лук", "моцарелла", "фирменный соус альфредо", "чеснок", "итальянские травы"],
+            "dough": ["Традиционное", "Тонкое"],
+            "size": ["Маленькая", "Средняя", "Большая"],
             "ingredients": [
                 {
                     "img": "cheddar-and-parmesan",
@@ -641,67 +735,78 @@
                     "img": "cheese-edge",
                     "title":  "Сырный бортик",
                     "cost" : 22,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "creamy-mozzarella",
                     "title": "Сливочная моцарелла",
                     "cost" : 88,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "crispy-bacon",
                     "title": "Хрустящий бекон",
                     "cost" : 30,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "ham",
                     "title": "Ветчина",
                     "cost" : 40,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pepperoni",
                     "title": "Пепперони",
                     "cost" : 55,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pickled-cucumbers",
                     "title": "Маринованные огурчики",
                     "cost" : 99,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-chorizo",
                     "title": "Острая чоризо",
                     "cost" : 15,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-jalapeno",
                     "title":  "Острый халапеньо",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tender-chick",
                     "title":  "Нежный цыпленок",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tomato",
                     "title":  "свежие томаты",
                     "cost" : 45,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "сhampignon",
                     "title":  "Шампиньоны",
                     "cost" : 90,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 }
             ]
         },
@@ -712,6 +817,8 @@
             "cost": 675,
             "id": 675,
             "compos": ["Цыпленок", "моцарелла", "сыры чеддер и пармезан", "сырный соус", "томаты", "фирменный соус альфредо", "чеснок"],
+            "dough": ["Традиционное", "Тонкое"],
+            "size": ["Маленькая", "Средняя", "Большая"],
             "ingredients": [
                 {
                     "img": "cheddar-and-parmesan",
@@ -723,67 +830,78 @@
                     "img": "cheese-edge",
                     "title":  "Сырный бортик",
                     "cost" : 22,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "creamy-mozzarella",
                     "title": "Сливочная моцарелла",
                     "cost" : 88,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "crispy-bacon",
                     "title": "Хрустящий бекон",
                     "cost" : 30,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "ham",
                     "title": "Ветчина",
                     "cost" : 40,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pepperoni",
                     "title": "Пепперони",
                     "cost" : 55,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pickled-cucumbers",
                     "title": "Маринованные огурчики",
                     "cost" : 99,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-chorizo",
                     "title": "Острая чоризо",
                     "cost" : 15,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-jalapeno",
                     "title":  "Острый халапеньо",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tender-chick",
                     "title":  "Нежный цыпленок",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tomato",
                     "title":  "свежие томаты",
                     "cost" : 45,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "сhampignon",
                     "title":  "Шампиньоны",
                     "cost" : 90,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 }
             ]
         },
@@ -794,6 +912,8 @@
             "cost": 543,
             "id": 543,
             "compos": ["Цыпленок", "моцарелла", "сыры чеддер и пармезан", "сырный соус", "томаты", "фирменный соус альфредо", "чеснок"],
+            "dough": ["Традиционное", "Тонкое"],
+            "size": ["Маленькая", "Средняя", "Большая"],
             "ingredients": [
                 {
                     "img": "cheddar-and-parmesan",
@@ -805,67 +925,78 @@
                     "img": "cheese-edge",
                     "title":  "Сырный бортик",
                     "cost" : 22,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "creamy-mozzarella",
                     "title": "Сливочная моцарелла",
                     "cost" : 88,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "crispy-bacon",
                     "title": "Хрустящий бекон",
                     "cost" : 30,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "ham",
                     "title": "Ветчина",
                     "cost" : 40,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pepperoni",
                     "title": "Пепперони",
                     "cost" : 55,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pickled-cucumbers",
                     "title": "Маринованные огурчики",
                     "cost" : 99,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-chorizo",
                     "title": "Острая чоризо",
                     "cost" : 15,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-jalapeno",
                     "title":  "Острый халапеньо",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tender-chick",
                     "title":  "Нежный цыпленок",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tomato",
                     "title":  "свежие томаты",
                     "cost" : 45,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "сhampignon",
                     "title":  "Шампиньоны",
                     "cost" : 90,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 }
             ]
         },
@@ -876,6 +1007,8 @@
             "cost": 769,
             "id": 769,
             "compos": ["Бекон", "цыпленок", "ветчина", "сыры чеддер и пармезан", "соус песто", "кубики брынзы", "томаты", "красный лук", "моцарелла", "фирменный соус альфредо", "чеснок", "итальянские травы"],
+            "dough": ["Традиционное", "Тонкое"],
+            "size": ["Маленькая", "Средняя", "Большая"],
             "ingredients": [
                 {
                     "img": "cheddar-and-parmesan",
@@ -887,67 +1020,78 @@
                     "img": "cheese-edge",
                     "title":  "Сырный бортик",
                     "cost" : 22,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "creamy-mozzarella",
                     "title": "Сливочная моцарелла",
                     "cost" : 88,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "crispy-bacon",
                     "title": "Хрустящий бекон",
                     "cost" : 30,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "ham",
                     "title": "Ветчина",
                     "cost" : 40,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pepperoni",
                     "title": "Пепперони",
                     "cost" : 55,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pickled-cucumbers",
                     "title": "Маринованные огурчики",
                     "cost" : 99,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-chorizo",
                     "title": "Острая чоризо",
                     "cost" : 15,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-jalapeno",
                     "title":  "Острый халапеньо",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tender-chick",
                     "title":  "Нежный цыпленок",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tomato",
                     "title":  "свежие томаты",
                     "cost" : 45,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "сhampignon",
                     "title":  "Шампиньоны",
                     "cost" : 90,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 }
             ]
         },
@@ -958,6 +1102,8 @@
             "cost": 657,
             "id": 657,
             "compos": ["Запеченная буженина из свинины", "моцарелла", "фирменный томатный соус", "соус ранч", "соус ранч", "соус ранч"],
+            "dough": ["Традиционное", "Тонкое"],
+            "size": ["Маленькая", "Средняя", "Большая"],
             "ingredients": [
                 {
                     "img": "cheddar-and-parmesan",
@@ -969,67 +1115,78 @@
                     "img": "cheese-edge",
                     "title":  "Сырный бортик",
                     "cost" : 22,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "creamy-mozzarella",
                     "title": "Сливочная моцарелла",
                     "cost" : 88,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "crispy-bacon",
                     "title": "Хрустящий бекон",
                     "cost" : 30,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "ham",
                     "title": "Ветчина",
                     "cost" : 40,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pepperoni",
                     "title": "Пепперони",
                     "cost" : 55,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "pickled-cucumbers",
                     "title": "Маринованные огурчики",
                     "cost" : 99,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-chorizo",
                     "title": "Острая чоризо",
                     "cost" : 15,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "spicy-jalapeno",
                     "title":  "Острый халапеньо",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tender-chick",
                     "title":  "Нежный цыпленок",
                     "cost" : 20,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "tomato",
                     "title":  "свежие томаты",
                     "cost" : 45,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 },
                 {
                     "img": "сhampignon",
                     "title":  "Шампиньоны",
                     "cost" : 90,
-                    "disabled": false
+                    "disabled": false,
+                    "state": true
                 }
             ]
         }

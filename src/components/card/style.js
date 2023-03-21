@@ -58,6 +58,9 @@ export const CardImgWrp = styled.div`
 
   @media (min-width: ${media.lg}px) {
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `
 
@@ -72,7 +75,7 @@ export const CardImg = styled.img`
   
   @media (min-width: ${media.lg}px) {
     position: static;
-    width: 100%;
+    width: 85%;
     height: auto;
     transform:inherit;
     max-width: 100%;
@@ -127,6 +130,7 @@ export const CardTag = styled.button`
   align-items: center;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 
   &:before {
     content: "";
